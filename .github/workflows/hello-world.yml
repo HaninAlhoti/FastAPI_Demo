@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print the key
-      echo "the is *** the  key"
+      run: echo "the is *** the  key"
     - name: Display the key
-      echo "the is 111 the  key"
+      run: echo "the is 111 the  key"
