@@ -9,6 +9,6 @@ jobs:
     - name: Print the key
       run: echo "the is *** the  key"
     - name: Display the key
-      run: 
+      run: |
         echo "the is 111 the  key"
         echo "the is 111 the  key"
