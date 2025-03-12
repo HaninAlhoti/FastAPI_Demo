@@ -1,0 +1,12 @@
+name: Hello SDA Class Workflow
+
+on: workflow_dispatch
+
+jobs:
+  job_one:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print the key
+      echo "the is *** the  key"
+    - name: Display the key
+      echo "the is 111 the  key"
